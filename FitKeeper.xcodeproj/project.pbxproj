@@ -7,21 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7780AFC2D1230BA4E704108 /* Pods_FitKeeper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A5A2BF726EEC08B99D87BF8 /* Pods_FitKeeper.framework */; };
+		EE0DBCA31EDB868C009442AB /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0DBCA21EDB868C009442AB /* ExerciseViewController.swift */; };
+		EE0DBCA51EDBA48B009442AB /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0DBCA41EDBA48B009442AB /* PhotoViewController.swift */; };
+		EE1334831EE1ECC9004DE8DE /* ProfileWinnersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1334821EE1ECC9004DE8DE /* ProfileWinnersTableViewController.swift */; };
+		EE1334851EE1F9B8004DE8DE /* Algorythm.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1334841EE1F9B8004DE8DE /* Algorythm.swift */; };
+		EE1334891EE2127B004DE8DE /* SimplexMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1334881EE2127B004DE8DE /* SimplexMethod.swift */; };
+		EE13348B1EE21D67004DE8DE /* Simplex.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE13348A1EE21D67004DE8DE /* Simplex.swift */; };
+		EE13348D1EE7F79D004DE8DE /* ManageTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE13348C1EE7F79D004DE8DE /* ManageTasksViewController.swift */; };
+		EE1655781ED6D28800FEAC7E /* MarathoneCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1655771ED6D28800FEAC7E /* MarathoneCell.swift */; };
+		EE48BDAE1ED9E43400F64BA9 /* AddTasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE48BDAD1ED9E43400F64BA9 /* AddTasksTableViewController.swift */; };
+		EE48BDB01ED9E6B400F64BA9 /* AddMotivationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE48BDAF1ED9E6B400F64BA9 /* AddMotivationTableViewController.swift */; };
+		EE48BDB21ED9F09A00F64BA9 /* AddAdviceTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE48BDB11ED9F09A00F64BA9 /* AddAdviceTableViewController.swift */; };
+		EE48BDB41ED9F77400F64BA9 /* AddExerciseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE48BDB31ED9F77400F64BA9 /* AddExerciseTableViewController.swift */; };
+		EE48BDB61EDA089100F64BA9 /* AddParameterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE48BDB51EDA089100F64BA9 /* AddParameterTableViewController.swift */; };
+		EE48BDB81EDA129200F64BA9 /* AddTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE48BDB71EDA129200F64BA9 /* AddTableViewCell.swift */; };
+		EE48BDBA1EDA146200F64BA9 /* ManageMarathoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE48BDB91EDA146200F64BA9 /* ManageMarathoneTableViewController.swift */; };
+		EE48BDBC1EDB329700F64BA9 /* ParticipateMarathoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE48BDBB1EDB329700F64BA9 /* ParticipateMarathoneTableViewController.swift */; };
+		EE58CAD31ED1E5FB0098E87C /* TodaysActivitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE58CAD21ED1E5FB0098E87C /* TodaysActivitiesTableViewController.swift */; };
+		EE81EBAE1ECB260200373A56 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE81EBAD1ECB260200373A56 /* CustomTableViewCell.swift */; };
+		EE8D0A9C1ED0E930001CCA22 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8D0A9B1ED0E930001CCA22 /* InfoTableViewCell.swift */; };
+		EEC1898C1EE06E2300B86870 /* GetMember.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC1898B1EE06E2300B86870 /* GetMember.swift */; };
+		EEC2F5D01ED39D6500555FA8 /* EditProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2F5CF1ED39D6500555FA8 /* EditProfileTableViewController.swift */; };
+		EEC2F5D21ED434ED00555FA8 /* ProfileMarathonesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2F5D11ED434ED00555FA8 /* ProfileMarathonesTableViewController.swift */; };
+		EEC2F5D41ED46B8000555FA8 /* AddParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2F5D31ED46B8000555FA8 /* AddParameterViewController.swift */; };
+		EEC2F5D61ED488E400555FA8 /* ProfileChartsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2F5D51ED488E400555FA8 /* ProfileChartsViewController.swift */; };
+		EED0F5881ECA050900BAA99D /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED0F5871ECA050900BAA99D /* Meal.swift */; };
+		EEDBF2FA1EDC5C930052B233 /* AdviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBF2F91EDC5C930052B233 /* AdviceViewController.swift */; };
+		EEDBF2FC1EDC5F560052B233 /* ParameterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBF2FB1EDC5F560052B233 /* ParameterViewController.swift */; };
+		EEDBF2FE1EDC9B390052B233 /* MemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBF2FD1EDC9B390052B233 /* MemberTableViewCell.swift */; };
+		EEDBF3001EDC9F040052B233 /* MarathoneMembersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBF2FF1EDC9F040052B233 /* MarathoneMembersTableViewController.swift */; };
+		EEDBF3021EDCD5DA0052B233 /* MemberTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBF3011EDCD5DA0052B233 /* MemberTableViewController.swift */; };
+		EEDBF3041EDD1F6B0052B233 /* MarathoneRankTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEDBF3031EDD1F6B0052B233 /* MarathoneRankTableViewController.swift */; };
+		EEE5DE841ED851FE009E1472 /* MarathoneInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5DE831ED851FE009E1472 /* MarathoneInfoViewController.swift */; };
+		EEE5DE881ED875D6009E1472 /* ShowCertificateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE5DE871ED875D6009E1472 /* ShowCertificateViewController.swift */; };
+		EEE5DE8B1ED8D466009E1472 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEE5DE8A1ED8D466009E1472 /* HealthKit.framework */; };
+		EF05F7AC1EB0FF4E00E08FD7 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05F7AB1EB0FF4E00E08FD7 /* DetailsViewController.swift */; };
+		EF05F7B61EB213EA00E08FD7 /* MainMarathoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05F7B51EB213EA00E08FD7 /* MainMarathoneTableViewController.swift */; };
+		EF05F7C21EB2713000E08FD7 /* ProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05F7C11EB2713000E08FD7 /* ProfileTableViewController.swift */; };
+		EF963AE81EC3D23C003462BC /* AddMarathoneTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF963AE71EC3D23C003462BC /* AddMarathoneTableViewController.swift */; };
 		EF9BFACE1EACD9840069E90B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFACD1EACD9840069E90B /* AppDelegate.swift */; };
-		EF9BFAD01EACD9840069E90B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFACF1EACD9840069E90B /* ViewController.swift */; };
 		EF9BFAD31EACD9840069E90B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9BFAD11EACD9840069E90B /* Main.storyboard */; };
 		EF9BFAD51EACD9840069E90B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF9BFAD41EACD9840069E90B /* Assets.xcassets */; };
 		EF9BFAD81EACD9840069E90B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF9BFAD61EACD9840069E90B /* LaunchScreen.storyboard */; };
+		EF9BFAE01EACE94E0069E90B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFADF1EACE94E0069E90B /* LoginViewController.swift */; };
+		EF9BFAE21EACEB9B0069E90B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAE11EACEB9B0069E90B /* SignUpViewController.swift */; };
+		EF9BFAE51EACEC1E0069E90B /* Step1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAE41EACEC1E0069E90B /* Step1ViewController.swift */; };
+		EF9BFAE81EACF2980069E90B /* Step2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAE71EACF2980069E90B /* Step2ViewController.swift */; };
+		EF9BFAEA1EAD002F0069E90B /* Step3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAE91EAD002F0069E90B /* Step3ViewController.swift */; };
+		EF9BFAEC1EAD09FC0069E90B /* Step4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAEB1EAD09FC0069E90B /* Step4ViewController.swift */; };
+		EF9BFAEE1EAD0D980069E90B /* Step5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAED1EAD0D980069E90B /* Step5ViewController.swift */; };
+		EF9BFAF01EAD24000069E90B /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAEF1EAD24000069E90B /* ActivityTableViewController.swift */; };
+		EF9BFAF31EAE116C0069E90B /* LogMealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAF21EAE116B0069E90B /* LogMealTableViewController.swift */; };
+		EF9BFAF51EAE118C0069E90B /* SearchMealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAF41EAE118C0069E90B /* SearchMealTableViewController.swift */; };
+		EF9BFAF71EAE11AA0069E90B /* ChosenMealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAF61EAE11AA0069E90B /* ChosenMealTableViewController.swift */; };
+		EF9BFAF91EAE11BF0069E90B /* AddNewMealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAF81EAE11BF0069E90B /* AddNewMealTableViewController.swift */; };
+		EF9BFAFB1EAE12050069E90B /* SearchActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAFA1EAE12050069E90B /* SearchActivityTableViewController.swift */; };
+		EF9BFAFD1EAE12190069E90B /* ChosenSportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAFC1EAE12190069E90B /* ChosenSportsTableViewController.swift */; };
+		EF9BFAFF1EAE122A0069E90B /* AddNewSportsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFAFE1EAE122A0069E90B /* AddNewSportsTableViewController.swift */; };
+		EF9BFB011EAE4C420069E90B /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9BFB001EAE4C410069E90B /* CustomImageView.swift */; };
+		EFFB31721EBDCE9C008415E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EFFB31711EBDCE9B008415E7 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7723417C5966B92BD425A2A6 /* Pods-FitKeeper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitKeeper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FitKeeper/Pods-FitKeeper.debug.xcconfig"; sourceTree = "<group>"; };
+		7A5A2BF726EEC08B99D87BF8 /* Pods_FitKeeper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FitKeeper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F10C06AF3824EB7C26DDC24 /* Pods-FitKeeper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FitKeeper.release.xcconfig"; path = "Pods/Target Support Files/Pods-FitKeeper/Pods-FitKeeper.release.xcconfig"; sourceTree = "<group>"; };
+		EE0DBCA21EDB868C009442AB /* ExerciseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		EE0DBCA41EDBA48B009442AB /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		EE1334821EE1ECC9004DE8DE /* ProfileWinnersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileWinnersTableViewController.swift; sourceTree = "<group>"; };
+		EE1334841EE1F9B8004DE8DE /* Algorythm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorythm.swift; sourceTree = "<group>"; };
+		EE1334881EE2127B004DE8DE /* SimplexMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimplexMethod.swift; sourceTree = "<group>"; };
+		EE13348A1EE21D67004DE8DE /* Simplex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Simplex.swift; sourceTree = "<group>"; };
+		EE13348C1EE7F79D004DE8DE /* ManageTasksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageTasksViewController.swift; sourceTree = "<group>"; };
+		EE1655771ED6D28800FEAC7E /* MarathoneCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarathoneCell.swift; sourceTree = "<group>"; };
+		EE48BDAD1ED9E43400F64BA9 /* AddTasksTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTasksTableViewController.swift; sourceTree = "<group>"; };
+		EE48BDAF1ED9E6B400F64BA9 /* AddMotivationTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMotivationTableViewController.swift; sourceTree = "<group>"; };
+		EE48BDB11ED9F09A00F64BA9 /* AddAdviceTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAdviceTableViewController.swift; sourceTree = "<group>"; };
+		EE48BDB31ED9F77400F64BA9 /* AddExerciseTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddExerciseTableViewController.swift; sourceTree = "<group>"; };
+		EE48BDB51EDA089100F64BA9 /* AddParameterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddParameterTableViewController.swift; sourceTree = "<group>"; };
+		EE48BDB71EDA129200F64BA9 /* AddTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTableViewCell.swift; sourceTree = "<group>"; };
+		EE48BDB91EDA146200F64BA9 /* ManageMarathoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageMarathoneTableViewController.swift; sourceTree = "<group>"; };
+		EE48BDBB1EDB329700F64BA9 /* ParticipateMarathoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticipateMarathoneTableViewController.swift; sourceTree = "<group>"; };
+		EE58CAD21ED1E5FB0098E87C /* TodaysActivitiesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodaysActivitiesTableViewController.swift; sourceTree = "<group>"; };
+		EE81EBAD1ECB260200373A56 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		EE8D0A9B1ED0E930001CCA22 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		EEC1898B1EE06E2300B86870 /* GetMember.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetMember.swift; sourceTree = "<group>"; };
+		EEC2F5CF1ED39D6500555FA8 /* EditProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewController.swift; sourceTree = "<group>"; };
+		EEC2F5D11ED434ED00555FA8 /* ProfileMarathonesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileMarathonesTableViewController.swift; sourceTree = "<group>"; };
+		EEC2F5D31ED46B8000555FA8 /* AddParameterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddParameterViewController.swift; sourceTree = "<group>"; };
+		EEC2F5D51ED488E400555FA8 /* ProfileChartsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileChartsViewController.swift; sourceTree = "<group>"; };
+		EED0F5871ECA050900BAA99D /* Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		EEDBF2F91EDC5C930052B233 /* AdviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdviceViewController.swift; sourceTree = "<group>"; };
+		EEDBF2FB1EDC5F560052B233 /* ParameterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParameterViewController.swift; sourceTree = "<group>"; };
+		EEDBF2FD1EDC9B390052B233 /* MemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberTableViewCell.swift; sourceTree = "<group>"; };
+		EEDBF2FF1EDC9F040052B233 /* MarathoneMembersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarathoneMembersTableViewController.swift; sourceTree = "<group>"; };
+		EEDBF3011EDCD5DA0052B233 /* MemberTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberTableViewController.swift; sourceTree = "<group>"; };
+		EEDBF3031EDD1F6B0052B233 /* MarathoneRankTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarathoneRankTableViewController.swift; sourceTree = "<group>"; };
+		EEE5DE831ED851FE009E1472 /* MarathoneInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarathoneInfoViewController.swift; sourceTree = "<group>"; };
+		EEE5DE871ED875D6009E1472 /* ShowCertificateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShowCertificateViewController.swift; sourceTree = "<group>"; };
+		EEE5DE891ED8D466009E1472 /* FitKeeper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FitKeeper.entitlements; sourceTree = "<group>"; };
+		EEE5DE8A1ED8D466009E1472 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		EF05F7AB1EB0FF4E00E08FD7 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		EF05F7B51EB213EA00E08FD7 /* MainMarathoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMarathoneTableViewController.swift; sourceTree = "<group>"; };
+		EF05F7C11EB2713000E08FD7 /* ProfileTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileTableViewController.swift; sourceTree = "<group>"; };
+		EF963AE71EC3D23C003462BC /* AddMarathoneTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMarathoneTableViewController.swift; sourceTree = "<group>"; };
 		EF9BFACA1EACD9840069E90B /* FitKeeper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitKeeper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF9BFACD1EACD9840069E90B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF9BFACF1EACD9840069E90B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EF9BFAD21EACD9840069E90B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF9BFAD41EACD9840069E90B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF9BFAD71EACD9840069E90B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF9BFAD91EACD9840069E90B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF9BFADF1EACE94E0069E90B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EF9BFAE11EACEB9B0069E90B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EF9BFAE41EACEC1E0069E90B /* Step1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step1ViewController.swift; sourceTree = "<group>"; };
+		EF9BFAE71EACF2980069E90B /* Step2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step2ViewController.swift; sourceTree = "<group>"; };
+		EF9BFAE91EAD002F0069E90B /* Step3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step3ViewController.swift; sourceTree = "<group>"; };
+		EF9BFAEB1EAD09FC0069E90B /* Step4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step4ViewController.swift; sourceTree = "<group>"; };
+		EF9BFAED1EAD0D980069E90B /* Step5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Step5ViewController.swift; sourceTree = "<group>"; };
+		EF9BFAEF1EAD24000069E90B /* ActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
+		EF9BFAF21EAE116B0069E90B /* LogMealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogMealTableViewController.swift; sourceTree = "<group>"; };
+		EF9BFAF41EAE118C0069E90B /* SearchMealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchMealTableViewController.swift; sourceTree = "<group>"; };
+		EF9BFAF61EAE11AA0069E90B /* ChosenMealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChosenMealTableViewController.swift; sourceTree = "<group>"; };
+		EF9BFAF81EAE11BF0069E90B /* AddNewMealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewMealTableViewController.swift; sourceTree = "<group>"; };
+		EF9BFAFA1EAE12050069E90B /* SearchActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchActivityTableViewController.swift; sourceTree = "<group>"; };
+		EF9BFAFC1EAE12190069E90B /* ChosenSportsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChosenSportsTableViewController.swift; sourceTree = "<group>"; };
+		EF9BFAFE1EAE122A0069E90B /* AddNewSportsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNewSportsTableViewController.swift; sourceTree = "<group>"; };
+		EF9BFB001EAE4C410069E90B /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		EFFB31711EBDCE9B008415E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +142,52 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7780AFC2D1230BA4E704108 /* Pods_FitKeeper.framework in Frameworks */,
+				EEE5DE8B1ED8D466009E1472 /* HealthKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B648805C5735B3E7C536B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEE5DE8A1ED8D466009E1472 /* HealthKit.framework */,
+				7A5A2BF726EEC08B99D87BF8 /* Pods_FitKeeper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DC143E575D43AE8D2391FCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7723417C5966B92BD425A2A6 /* Pods-FitKeeper.debug.xcconfig */,
+				8F10C06AF3824EB7C26DDC24 /* Pods-FitKeeper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EF05F7C31EB271F800E08FD7 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				EF05F7C11EB2713000E08FD7 /* ProfileTableViewController.swift */,
+				EEC2F5CF1ED39D6500555FA8 /* EditProfileTableViewController.swift */,
+				EEC2F5D11ED434ED00555FA8 /* ProfileMarathonesTableViewController.swift */,
+				EEC2F5D31ED46B8000555FA8 /* AddParameterViewController.swift */,
+				EEC2F5D51ED488E400555FA8 /* ProfileChartsViewController.swift */,
+				EE1334821EE1ECC9004DE8DE /* ProfileWinnersTableViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
 		EF9BFAC11EACD9840069E90B = {
 			isa = PBXGroup;
 			children = (
 				EF9BFACC1EACD9840069E90B /* FitKeeper */,
 				EF9BFACB1EACD9840069E90B /* Products */,
+				7DC143E575D43AE8D2391FCD /* Pods */,
+				5B648805C5735B3E7C536B29 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +202,103 @@
 		EF9BFACC1EACD9840069E90B /* FitKeeper */ = {
 			isa = PBXGroup;
 			children = (
+				EEE5DE891ED8D466009E1472 /* FitKeeper.entitlements */,
+				EF9BFB021EAE4C770069E90B /* Objects */,
+				EF9BFAE31EACEBAD0069E90B /* View Controllers */,
 				EF9BFACD1EACD9840069E90B /* AppDelegate.swift */,
-				EF9BFACF1EACD9840069E90B /* ViewController.swift */,
 				EF9BFAD11EACD9840069E90B /* Main.storyboard */,
 				EF9BFAD41EACD9840069E90B /* Assets.xcassets */,
 				EF9BFAD61EACD9840069E90B /* LaunchScreen.storyboard */,
 				EF9BFAD91EACD9840069E90B /* Info.plist */,
+				EFFB31711EBDCE9B008415E7 /* GoogleService-Info.plist */,
 			);
 			path = FitKeeper;
+			sourceTree = "<group>";
+		};
+		EF9BFAE31EACEBAD0069E90B /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF9BFADF1EACE94E0069E90B /* LoginViewController.swift */,
+				EF9BFAE11EACEB9B0069E90B /* SignUpViewController.swift */,
+				EF9BFAE61EACEC2A0069E90B /* Step */,
+				EF9BFAF11EAD3BFE0069E90B /* Activity */,
+				EF9BFB051EAF7B300069E90B /* Marathone */,
+				EF05F7C31EB271F800E08FD7 /* Profile */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EF9BFAE61EACEC2A0069E90B /* Step */ = {
+			isa = PBXGroup;
+			children = (
+				EF9BFAE41EACEC1E0069E90B /* Step1ViewController.swift */,
+				EF9BFAE71EACF2980069E90B /* Step2ViewController.swift */,
+				EF9BFAE91EAD002F0069E90B /* Step3ViewController.swift */,
+				EF9BFAEB1EAD09FC0069E90B /* Step4ViewController.swift */,
+				EF9BFAED1EAD0D980069E90B /* Step5ViewController.swift */,
+			);
+			name = Step;
+			sourceTree = "<group>";
+		};
+		EF9BFAF11EAD3BFE0069E90B /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				EF9BFAEF1EAD24000069E90B /* ActivityTableViewController.swift */,
+				EED0F5871ECA050900BAA99D /* Meal.swift */,
+				EF05F7AB1EB0FF4E00E08FD7 /* DetailsViewController.swift */,
+				EF9BFAF21EAE116B0069E90B /* LogMealTableViewController.swift */,
+				EF9BFAF41EAE118C0069E90B /* SearchMealTableViewController.swift */,
+				EF9BFAF61EAE11AA0069E90B /* ChosenMealTableViewController.swift */,
+				EF9BFAF81EAE11BF0069E90B /* AddNewMealTableViewController.swift */,
+				EF9BFAFA1EAE12050069E90B /* SearchActivityTableViewController.swift */,
+				EF9BFAFC1EAE12190069E90B /* ChosenSportsTableViewController.swift */,
+				EF9BFAFE1EAE122A0069E90B /* AddNewSportsTableViewController.swift */,
+				EE58CAD21ED1E5FB0098E87C /* TodaysActivitiesTableViewController.swift */,
+			);
+			name = Activity;
+			sourceTree = "<group>";
+		};
+		EF9BFB021EAE4C770069E90B /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				EF9BFB001EAE4C410069E90B /* CustomImageView.swift */,
+				EE81EBAD1ECB260200373A56 /* CustomTableViewCell.swift */,
+				EE8D0A9B1ED0E930001CCA22 /* InfoTableViewCell.swift */,
+				EE1655771ED6D28800FEAC7E /* MarathoneCell.swift */,
+				EE48BDB71EDA129200F64BA9 /* AddTableViewCell.swift */,
+				EEDBF2FD1EDC9B390052B233 /* MemberTableViewCell.swift */,
+				EEC1898B1EE06E2300B86870 /* GetMember.swift */,
+				EE1334841EE1F9B8004DE8DE /* Algorythm.swift */,
+				EE1334881EE2127B004DE8DE /* SimplexMethod.swift */,
+				EE13348A1EE21D67004DE8DE /* Simplex.swift */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		EF9BFB051EAF7B300069E90B /* Marathone */ = {
+			isa = PBXGroup;
+			children = (
+				EF05F7B51EB213EA00E08FD7 /* MainMarathoneTableViewController.swift */,
+				EF963AE71EC3D23C003462BC /* AddMarathoneTableViewController.swift */,
+				EEE5DE831ED851FE009E1472 /* MarathoneInfoViewController.swift */,
+				EEE5DE871ED875D6009E1472 /* ShowCertificateViewController.swift */,
+				EE48BDAD1ED9E43400F64BA9 /* AddTasksTableViewController.swift */,
+				EE48BDAF1ED9E6B400F64BA9 /* AddMotivationTableViewController.swift */,
+				EE48BDB11ED9F09A00F64BA9 /* AddAdviceTableViewController.swift */,
+				EE48BDB31ED9F77400F64BA9 /* AddExerciseTableViewController.swift */,
+				EE48BDB51EDA089100F64BA9 /* AddParameterTableViewController.swift */,
+				EE48BDB91EDA146200F64BA9 /* ManageMarathoneTableViewController.swift */,
+				EE48BDBB1EDB329700F64BA9 /* ParticipateMarathoneTableViewController.swift */,
+				EE0DBCA21EDB868C009442AB /* ExerciseViewController.swift */,
+				EE0DBCA41EDBA48B009442AB /* PhotoViewController.swift */,
+				EEDBF2F91EDC5C930052B233 /* AdviceViewController.swift */,
+				EEDBF2FB1EDC5F560052B233 /* ParameterViewController.swift */,
+				EEDBF2FF1EDC9F040052B233 /* MarathoneMembersTableViewController.swift */,
+				EEDBF3011EDCD5DA0052B233 /* MemberTableViewController.swift */,
+				EEDBF3031EDD1F6B0052B233 /* MarathoneRankTableViewController.swift */,
+				EE13348C1EE7F79D004DE8DE /* ManageTasksViewController.swift */,
+			);
+			name = Marathone;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF9BFADC1EACD9840069E90B /* Build configuration list for PBXNativeTarget "FitKeeper" */;
 			buildPhases = (
+				7F610FAD4B043E0CD4206F52 /* [CP] Check Pods Manifest.lock */,
 				EF9BFAC61EACD9840069E90B /* Sources */,
 				EF9BFAC71EACD9840069E90B /* Frameworks */,
 				EF9BFAC81EACD9840069E90B /* Resources */,
+				1C24F7400181B9BF92CE4612 /* [CP] Embed Pods Frameworks */,
+				16675ED1CAA04EDC37E00E19 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,8 +336,13 @@
 				TargetAttributes = {
 					EF9BFAC91EACD9840069E90B = {
 						CreatedOnToolsVersion = 8.3.2;
-						DevelopmentTeam = 8FNMTLGN4R;
+						DevelopmentTeam = 83EL965TKZ;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -125,6 +370,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9BFAD81EACD9840069E90B /* LaunchScreen.storyboard in Resources */,
+				EFFB31721EBDCE9C008415E7 /* GoogleService-Info.plist in Resources */,
 				EF9BFAD51EACD9840069E90B /* Assets.xcassets in Resources */,
 				EF9BFAD31EACD9840069E90B /* Main.storyboard in Resources */,
 			);
@@ -132,13 +378,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		16675ED1CAA04EDC37E00E19 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitKeeper/Pods-FitKeeper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C24F7400181B9BF92CE4612 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FitKeeper/Pods-FitKeeper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F610FAD4B043E0CD4206F52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EF9BFAC61EACD9840069E90B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF9BFAD01EACD9840069E90B /* ViewController.swift in Sources */,
+				EF9BFAE51EACEC1E0069E90B /* Step1ViewController.swift in Sources */,
+				EEDBF2FA1EDC5C930052B233 /* AdviceViewController.swift in Sources */,
+				EF9BFAE81EACF2980069E90B /* Step2ViewController.swift in Sources */,
+				EEC1898C1EE06E2300B86870 /* GetMember.swift in Sources */,
+				EEDBF3041EDD1F6B0052B233 /* MarathoneRankTableViewController.swift in Sources */,
+				EE0DBCA31EDB868C009442AB /* ExerciseViewController.swift in Sources */,
+				EF9BFAFD1EAE12190069E90B /* ChosenSportsTableViewController.swift in Sources */,
+				EEC2F5D21ED434ED00555FA8 /* ProfileMarathonesTableViewController.swift in Sources */,
+				EED0F5881ECA050900BAA99D /* Meal.swift in Sources */,
+				EEC2F5D01ED39D6500555FA8 /* EditProfileTableViewController.swift in Sources */,
+				EF9BFAF31EAE116C0069E90B /* LogMealTableViewController.swift in Sources */,
+				EEE5DE841ED851FE009E1472 /* MarathoneInfoViewController.swift in Sources */,
+				EE1334831EE1ECC9004DE8DE /* ProfileWinnersTableViewController.swift in Sources */,
+				EEDBF2FE1EDC9B390052B233 /* MemberTableViewCell.swift in Sources */,
+				EEC2F5D61ED488E400555FA8 /* ProfileChartsViewController.swift in Sources */,
+				EE8D0A9C1ED0E930001CCA22 /* InfoTableViewCell.swift in Sources */,
+				EE0DBCA51EDBA48B009442AB /* PhotoViewController.swift in Sources */,
+				EE13348D1EE7F79D004DE8DE /* ManageTasksViewController.swift in Sources */,
+				EF9BFAEC1EAD09FC0069E90B /* Step4ViewController.swift in Sources */,
+				EE48BDB61EDA089100F64BA9 /* AddParameterTableViewController.swift in Sources */,
+				EE48BDB21ED9F09A00F64BA9 /* AddAdviceTableViewController.swift in Sources */,
+				EEDBF2FC1EDC5F560052B233 /* ParameterViewController.swift in Sources */,
+				EF9BFAFF1EAE122A0069E90B /* AddNewSportsTableViewController.swift in Sources */,
+				EE58CAD31ED1E5FB0098E87C /* TodaysActivitiesTableViewController.swift in Sources */,
+				EF9BFAEA1EAD002F0069E90B /* Step3ViewController.swift in Sources */,
+				EE48BDB41ED9F77400F64BA9 /* AddExerciseTableViewController.swift in Sources */,
+				EEE5DE881ED875D6009E1472 /* ShowCertificateViewController.swift in Sources */,
+				EEDBF3001EDC9F040052B233 /* MarathoneMembersTableViewController.swift in Sources */,
+				EE13348B1EE21D67004DE8DE /* Simplex.swift in Sources */,
+				EF9BFAEE1EAD0D980069E90B /* Step5ViewController.swift in Sources */,
+				EF9BFAF01EAD24000069E90B /* ActivityTableViewController.swift in Sources */,
+				EE1334891EE2127B004DE8DE /* SimplexMethod.swift in Sources */,
+				EF963AE81EC3D23C003462BC /* AddMarathoneTableViewController.swift in Sources */,
+				EF05F7C21EB2713000E08FD7 /* ProfileTableViewController.swift in Sources */,
+				EF9BFAE21EACEB9B0069E90B /* SignUpViewController.swift in Sources */,
+				EE48BDAE1ED9E43400F64BA9 /* AddTasksTableViewController.swift in Sources */,
+				EE48BDBA1EDA146200F64BA9 /* ManageMarathoneTableViewController.swift in Sources */,
+				EEDBF3021EDCD5DA0052B233 /* MemberTableViewController.swift in Sources */,
+				EF9BFAF91EAE11BF0069E90B /* AddNewMealTableViewController.swift in Sources */,
+				EE48BDBC1EDB329700F64BA9 /* ParticipateMarathoneTableViewController.swift in Sources */,
+				EF9BFAF71EAE11AA0069E90B /* ChosenMealTableViewController.swift in Sources */,
+				EE1334851EE1F9B8004DE8DE /* Algorythm.swift in Sources */,
+				EF05F7AC1EB0FF4E00E08FD7 /* DetailsViewController.swift in Sources */,
+				EF9BFAFB1EAE12050069E90B /* SearchActivityTableViewController.swift in Sources */,
+				EE1655781ED6D28800FEAC7E /* MarathoneCell.swift in Sources */,
+				EEC2F5D41ED46B8000555FA8 /* AddParameterViewController.swift in Sources */,
+				EE81EBAE1ECB260200373A56 /* CustomTableViewCell.swift in Sources */,
+				EE48BDB81EDA129200F64BA9 /* AddTableViewCell.swift in Sources */,
+				EF05F7B61EB213EA00E08FD7 /* MainMarathoneTableViewController.swift in Sources */,
+				EF9BFAE01EACE94E0069E90B /* LoginViewController.swift in Sources */,
 				EF9BFACE1EACD9840069E90B /* AppDelegate.swift in Sources */,
+				EE48BDB01ED9E6B400F64BA9 /* AddMotivationTableViewController.swift in Sources */,
+				EF9BFB011EAE4C420069E90B /* CustomImageView.swift in Sources */,
+				EF9BFAF51EAE118C0069E90B /* SearchMealTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +607,13 @@
 		};
 		EF9BFADD1EACD9840069E90B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7723417C5966B92BD425A2A6 /* Pods-FitKeeper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8FNMTLGN4R;
+				CODE_SIGN_ENTITLEMENTS = FitKeeper/FitKeeper.entitlements;
+				DEVELOPMENT_TEAM = 83EL965TKZ;
 				INFOPLIST_FILE = FitKeeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MCORE.FitKeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -274,10 +623,13 @@
 		};
 		EF9BFADE1EACD9840069E90B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F10C06AF3824EB7C26DDC24 /* Pods-FitKeeper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 8FNMTLGN4R;
+				CODE_SIGN_ENTITLEMENTS = FitKeeper/FitKeeper.entitlements;
+				DEVELOPMENT_TEAM = 83EL965TKZ;
 				INFOPLIST_FILE = FitKeeper/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = MCORE.FitKeeper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -304,6 +656,7 @@
 				EF9BFADE1EACD9840069E90B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
